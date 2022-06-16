@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Zip function in web</title>
+  <meta charset="UTF-8">
+  <title>zlib.js</title>
+  <script src="dist/bundle.js" async></script>
+  <style type="text/css">
+    html, body {
+      margin: 0px;
+      padding: 0px;
+      font-family: arial;
+    }
+    body > div {
+      width:50%;
+      margin: 50px auto;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-
-<input type="file" name="files" accept="*/*" />
-<button class="mybutton">Run myFunction</button>
-
-<script src="dist/bundle.js" async></script>
-
+  <div>
+    <input type="file" name="files" accept="*/*" />
+    <input class="mybutton" type="button" value="Archive" />
+  </div>
 </body>
 </html>
